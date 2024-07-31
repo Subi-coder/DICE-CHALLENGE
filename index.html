@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Challenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="Stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="myh1">Roll the Dice</h1>
+    <div class="Player1">
+        <p class="player1">player 1</p>
+        <img class="image1" width="200px" src="./images/dice6.png"> 
+    </div>
+    <div class="Player2">
+        <p>Computer </p>
+        <img class="image2" width="200px"src="./images/dice6.png">
+    </div>
+    <div class="butn">
+        <button onmouseover="bigImg(this)" onmouseout="normalImg(this)" type="button" class="btn" id="myBtn" onclick="buttonClick()">Roll Dice</button>
+    </div>
+</div>
+
+<div class="footer">
+    <footer>🎲Made by Subi - coder , inspired from AppBrewery🎲</footer>
+</div>
+<script src="./index.js" charset="utf-8"></script>
+</body>
+</html>
